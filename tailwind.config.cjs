@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
     darkMode: "class",
     content: ["./src/**/*.{js,jsx,ts,tsx}"],
@@ -103,20 +104,20 @@ module.exports = {
                 "96p": "96%",
                 "97p": "97%",
                 "98p": "98%",
-                "99p": "99%",
+                "99p": "99%"
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
-                dm: ["DM Sans", "sans-serif"],
+                dm: ["DM Sans", "sans-serif"]
             },
             boxShadow: {
                 "3xl": "14px 17px 40px 4px",
                 inset: "inset 0px 18px 22px",
-                darkinset: "0px 4px 4px inset",
+                darkinset: "0px 4px 4px inset"
             },
             borderRadius: {
-                primary: "20px",
-            },
+                primary: "20px"
+            }
         },
         screens: {
             sm: "576px",
@@ -132,7 +133,7 @@ module.exports = {
             "3xl": "1600px",
             "3xl-max": { max: "1600px" },
             "4xl": "1850px",
-            "4xl-max": { max: "1850px" },
+            "4xl-max": { max: "1850px" }
         },
         colors: () => ({
             white: "#ffffff",
@@ -149,7 +150,7 @@ module.exports = {
                 600: "#a3aed0",
                 700: "#707eae",
                 800: "#252f40",
-                900: "#1b2559",
+                900: "#1b2559"
             },
             navy: {
                 50: "#d0dcfb",
@@ -161,7 +162,7 @@ module.exports = {
                 600: "#24388a",
                 700: "#1B254B",
                 800: "#111c44",
-                900: "#0b1437",
+                900: "#0b1437"
             },
             red: {
                 50: "#ee5d501a",
@@ -173,7 +174,7 @@ module.exports = {
                 600: "#ea0606",
                 700: "#b91c1c",
                 800: "#991b1b",
-                900: "#7f1d1d",
+                900: "#7f1d1d"
             },
             orange: {
                 50: "#fff7ed",
@@ -185,7 +186,7 @@ module.exports = {
                 600: "#ea580c",
                 700: "#c2410c",
                 800: "#9a3412",
-                900: "#7c2d12",
+                900: "#7c2d12"
             },
             amber: {
                 50: "#fffbeb",
@@ -197,7 +198,7 @@ module.exports = {
                 600: "#d97706",
                 700: "#b45309",
                 800: "#92400e",
-                900: "#78350f",
+                900: "#78350f"
             },
             yellow: {
                 50: "#fefce8",
@@ -209,7 +210,7 @@ module.exports = {
                 600: "#ca8a04",
                 700: "#a16207",
                 800: "#854d0e",
-                900: "#713f12",
+                900: "#713f12"
             },
             lime: {
                 50: "#f7fee7",
@@ -221,7 +222,7 @@ module.exports = {
                 600: "#65a30d",
                 700: "#4d7c0f",
                 800: "#3f6212",
-                900: "#365314",
+                900: "#365314"
             },
             green: {
                 50: "#05cd991a",
@@ -233,7 +234,7 @@ module.exports = {
                 600: "#17ad37",
                 700: "#15803d",
                 800: "#166534",
-                900: "#14532d",
+                900: "#14532d"
             },
             teal: {
                 50: "#f0fdfa",
@@ -245,7 +246,7 @@ module.exports = {
                 600: "#0d9488",
                 700: "#0f766e",
                 800: "#115e59",
-                900: "#134e4a",
+                900: "#134e4a"
             },
             cyan: {
                 50: "#ecfeff",
@@ -257,7 +258,7 @@ module.exports = {
                 600: "#0891b2",
                 700: "#0e7490",
                 800: "#155e75",
-                900: "#164e63",
+                900: "#164e63"
             },
             blue: {
                 50: "#eff6ff",
@@ -269,7 +270,7 @@ module.exports = {
                 600: "#2152ff",
                 700: "#1d4ed8",
                 800: "#344e86",
-                900: "#00007d",
+                900: "#00007d"
             },
             indigo: {
                 50: "#eef2ff",
@@ -281,7 +282,7 @@ module.exports = {
                 600: "#4f46e5",
                 700: "#4338ca",
                 800: "#3730a3",
-                900: "#312e81",
+                900: "#312e81"
             },
             purple: {
                 50: "#faf5ff",
@@ -293,7 +294,7 @@ module.exports = {
                 600: "#9333ea",
                 700: "#7928ca",
                 800: "#6b21a8",
-                900: "#581c87",
+                900: "#581c87"
             },
             pink: {
                 50: "#fdf2f8",
@@ -305,7 +306,7 @@ module.exports = {
                 600: "#db2777",
                 700: "#be185d",
                 800: "#9d174d",
-                900: "#831843",
+                900: "#831843"
             },
             brand: {
                 50: "#E9E3FF",
@@ -317,11 +318,11 @@ module.exports = {
                 600: "#3311DB",
                 700: "#2111A5",
                 800: "#190793",
-                900: "#11047A",
+                900: "#11047A"
             },
             shadow: {
-                500: "rgba(112, 144, 176, 0.08)",
-            },
-        }),
+                500: "rgba(112, 144, 176, 0.08)"
+            }
+        })
     }
 };

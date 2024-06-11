@@ -3,4 +3,4 @@ bun.lockb
 node_modules/
 
 # mac conf
-**/.DS_Store
+.DS_Store
