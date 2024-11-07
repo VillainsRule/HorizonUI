@@ -1,6 +1,6 @@
 <div align="center">
 
-<img alt="Horizon UI - Tailwind CSS React Admin dashboard template" src="https://horizon-ui.com/static/media/main-hero-image.c18f68e8fec5f9091e4c.png" />
+<img alt="Horizon UI - Tailwind CSS React Admin dashboard template" src="https://i.imgur.com/js0XmoD.png" />
 
 # [Horizon UI: Tailwind + React + Vite ⚡️](https://github.com/VillainsRule/HorizonUI)
 ### Forked from [Horizon UI: Tailwind + React](https://horizon-ui.com/horizon-tailwind-react)
@@ -46,13 +46,13 @@ git clone https://github.com/VillainsRule/HorizonUI.git
 - Install dependencies of the project with the following command:
 
 ```bash
-npm install
+bun install
 ```
 
 - Finally, run this to start a local server!
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 ### Example Pages
@@ -81,4 +81,5 @@ Connect with the community! Feel free to ask questions, report issues, and meet 
 💬 [Join the HorizonUI Discord Community!](https://discord.gg/f6tEKFBd4m)
 
 > [!WARNING]
-> Reminder that issues may be related to our fork's modifications. Open an issue here instead of asking there.
+> Reminder that issues you face using this fork might be our fault.<br>
+> Open an issue here instead of asking questions there.
